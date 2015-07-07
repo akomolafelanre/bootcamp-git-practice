@@ -48,10 +48,12 @@ def intersection(a,b):
 	This function returns the intersection of a and b - A list of common elements between a and b
 	'''
 	new_list = []
-    for item in a:
-        if item in b:
-            new_list.append(item)
-    return new_list
+
+	for item in a:
+		if item in b:
+			new_list.append(item)
+
+		return new_list
 
 def generate(steps):
 	pass
