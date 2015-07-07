@@ -19,10 +19,10 @@ def reverse(s):
 	final_string = ""
 
 	if type(word) == str:
-    	for i in word:
-    		new_list.append(i)
-    	length = len(new_list)
-        
+		for i in word:
+			new_list.append(i)
+		length = len(new_list)
+
 		while length > 0:
 			another_list.append(new_list[length - 1])
 			length -= 1
