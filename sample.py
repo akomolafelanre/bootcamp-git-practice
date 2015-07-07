@@ -3,7 +3,12 @@ def unique(l):
 	'''
 	This function generate a list of unique values from l
 	'''
-	pass
+	new_list = []
+	for i in l:
+		if i not in new_list:
+			new_list[len(new_list)] = i
+	return new_list
+
 
 def reverse(s):
 	'''
