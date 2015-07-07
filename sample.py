@@ -19,28 +19,28 @@ def reverse(s):
 	final_string = ""
     
     if type(word) == str:
-        for i in word:
-            new_list.append(i)
-        length = len(new_list)
+    	for i in word:
+    		new_list.append(i)
+    	length = len(new_list)
         
-        while length > 0:
-            another_list.append(new_list[length - 1])
-            length -= 1
-            # another_list.append("test")
-        for i in another_list:
-            final_string += i
-            
-        return final_string
-    
-    else:
-        for i in word:
-            new_list.append(i)
-        length = len(new_list)
-        
-        while length > 0:
-            another_list.append(new_list[length - 1])
-            length -= 1
-        return another_list
+		while length > 0:
+			another_list.append(new_list[length - 1])
+			length -= 1
+		for i in another_list:
+			final_string += i
+
+		return final_string
+	
+	else:
+		for i in word:
+			new_list.append(i)
+		length = len(new_list)
+
+		while length > 0:
+			another_list.append(new_list[length - 1])
+			length -= 1
+
+		return another_list
 
 
 def intersection(a,b):
