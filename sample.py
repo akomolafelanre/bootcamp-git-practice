@@ -15,8 +15,8 @@ def reverse(s):
 	This function generates the reverse of s. s can be a string or a list. It returns the type given to it
 	'''
 	new_list = []
-    another_list = []
-    final_string = ""
+	another_list = []
+	final_string = ""
     
     if type(word) == str:
         for i in word:
