@@ -32,10 +32,11 @@ def frequency(needle, haystack):
 	'''
 	result = 0
 	for i in haystack:
-		if i == "needle":
+		if i == needle:
 			result += 1
 	return result
-	pass
+
+
 
 def sort(l):
 	'''
