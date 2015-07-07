@@ -18,8 +18,8 @@ def reverse(s):
 	another_list = []
 	final_string = ""
 
-	if type(word) == str:
-		for i in word:
+	if type(s) == str:
+		for i in s:
 			new_list.append(i)
 		length = len(new_list)
 
@@ -32,7 +32,7 @@ def reverse(s):
 		return final_string
 	
 	else:
-		for i in word:
+		for i in s:
 			new_list.append(i)
 		length = len(new_list)
 
